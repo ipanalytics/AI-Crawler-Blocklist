@@ -22,7 +22,9 @@ jobs:
           pip install -e .
       - name: Build and validate
         run: |
-          pytest -q
+          test -d tests
+          test -n "$(find tests -name 'test_*.py' -print -quit)"
+          python -m pytest -q tests
           python scripts/build.py
           python scripts/validate_outputs.py
       - name: Package dist artifacts
@@ -41,4 +43,3 @@ jobs:
               --title "$title" \
               --notes "Daily generated AI crawler blocklists."
           fi
-

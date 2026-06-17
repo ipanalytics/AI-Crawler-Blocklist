@@ -20,8 +20,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -e .
+      - name: Check test suite is present
+        run: |
+          test -d tests
+          test -n "$(find tests -name 'test_*.py' -print -quit)"
       - name: Run tests
-        run: pytest -q
+        run: python -m pytest -q tests
       - name: Build blocklists
         run: python scripts/build.py
       - name: Validate outputs

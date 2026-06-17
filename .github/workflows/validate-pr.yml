@@ -20,8 +20,12 @@ jobs:
           pip install -e .
       - name: Validate source schema
         run: python scripts/normalize_sources.py --check
+      - name: Check test suite is present
+        run: |
+          test -d tests
+          test -n "$(find tests -name 'test_*.py' -print -quit)"
       - name: Run tests
-        run: pytest -q
+        run: python -m pytest -q tests
       - name: Build dist
         run: python scripts/build.py
       - name: Validate outputs
@@ -33,4 +37,3 @@ jobs:
             git diff -- dist
             exit 1
           fi
-
