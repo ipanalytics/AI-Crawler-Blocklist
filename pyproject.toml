@@ -1,10 +1,14 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "ai-crawler-blocklist"
 version = "0.1.0"
 description = "AI-only crawler blocklists generated from official/operator-published sources."
 readme = "README.md"
 requires-python = ">=3.12"
-license = { text = "MIT" }
+license = "MIT"
 authors = [{ name = "ipanalytics" }]
 dependencies = [
   "Jinja2>=3.1",
@@ -13,6 +17,9 @@ dependencies = [
   "pytest>=8.0",
   "requests>=2.31",
 ]
+
+[tool.setuptools]
+packages = ["scripts", "scripts.utils"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
