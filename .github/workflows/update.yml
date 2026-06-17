@@ -1,0 +1,60 @@
+name: Update AI crawler blocklists
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+      - name: Run tests
+        run: pytest -q
+      - name: Build blocklists
+        run: python scripts/build.py
+      - name: Validate outputs
+        run: python scripts/validate_outputs.py
+      - name: Build summary
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          import subprocess
+          import sys
+          data = json.load(open("dist/metadata.json", encoding="utf-8"))
+          counts = data["counts"]
+          changed = subprocess.run(["git", "status", "--short", "dist"], text=True, capture_output=True, check=False).stdout.strip()
+          sys.stdout.write("## AI crawler blocklist update\n")
+          sys.stdout.write(f"- IPv4 prefixes: {counts['verified_ipv4_prefixes']}\n")
+          sys.stdout.write(f"- IPv6 prefixes: {counts['verified_ipv6_prefixes']}\n")
+          sys.stdout.write(f"- UA patterns: {counts['user_agent_patterns']}\n")
+          sys.stdout.write(f"- Failed sources: {len(data['failed_sources'])}\n")
+          sys.stdout.write("- Changed files:\n")
+          sys.stdout.write("```\n")
+          sys.stdout.write((changed or "none") + "\n")
+          sys.stdout.write("```\n")
+          PY
+      - name: Show status
+        run: git status --short
+      - name: Commit updated dist files
+        run: |
+          if [ -n "$(git status --porcelain dist)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add dist
+            git commit -m "Update AI crawler blocklists"
+            git push
+          else
+            echo "No changes"
+          fi
