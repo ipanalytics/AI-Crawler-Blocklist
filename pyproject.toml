@@ -1,0 +1,23 @@
+[project]
+name = "ai-crawler-blocklist"
+version = "0.1.0"
+description = "AI-only crawler blocklists generated from official/operator-published sources."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "ipanalytics" }]
+dependencies = [
+  "Jinja2>=3.1",
+  "PyYAML>=6.0",
+  "jsonschema>=4.0",
+  "pytest>=8.0",
+  "requests>=2.31",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
