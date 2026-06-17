@@ -10,7 +10,7 @@ build:
 	$(UV_RUN) python scripts/build.py
 
 test:
-	$(UV_RUN) pytest -q
+	$(UV_RUN) python -m pytest -q tests
 
 validate:
 	$(UV_RUN) python scripts/validate_outputs.py
