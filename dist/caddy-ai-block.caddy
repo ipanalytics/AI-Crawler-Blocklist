@@ -1,0 +1,33 @@
+# AI-Crawler-Blocklist
+# Generated: 2026-06-17T00:00:00Z
+# Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
+# Policy: official/operator-published sources only
+# WARNING: Review before hard drop. Search crawlers may affect visibility.
+@ai_crawler {
+  header_regexp User-Agent (?i).*Amazonbot.*
+  header_regexp User-Agent (?i).*Amzn-SearchBot.*
+  header_regexp User-Agent (?i).*Amzn-User.*
+  header_regexp User-Agent (?i).*anthropic-ai.*
+  header_regexp User-Agent (?i).*Baiduspider.*
+  header_regexp User-Agent (?i).*Bytespider.*
+  header_regexp User-Agent (?i).*ByteSpider.*
+  header_regexp User-Agent (?i).*CCBot.*
+  header_regexp User-Agent (?i).*ChatGPT-User.*
+  header_regexp User-Agent (?i).*Claude-SearchBot.*
+  header_regexp User-Agent (?i).*Claude-User.*
+  header_regexp User-Agent (?i).*ClaudeBot.*
+  header_regexp User-Agent (?i).*DuckAssistBot.*
+  header_regexp User-Agent (?i).*FacebookBot.*
+  header_regexp User-Agent (?i).*GPTBot.*
+  header_regexp User-Agent (?i).*meta-externalagent.*
+  header_regexp User-Agent (?i).*meta-externalfetcher.*
+  header_regexp User-Agent (?i).*meta-webindexer.*
+  header_regexp User-Agent (?i).*MistralAI-User.*
+  header_regexp User-Agent (?i).*OAI-AdsBot.*
+  header_regexp User-Agent (?i).*OAI-SearchBot.*
+  header_regexp User-Agent (?i).*Perplexity-User.*
+  header_regexp User-Agent (?i).*PerplexityBot.*
+  header_regexp User-Agent (?i).*PetalBot.*
+}
+
+respond @ai_crawler 403

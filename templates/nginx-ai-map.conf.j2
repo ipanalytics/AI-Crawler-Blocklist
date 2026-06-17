@@ -1,0 +1,7 @@
+{{ hash_header }}map $http_user_agent $ai_crawler {
+    default 0;
+{% for regex in regexes %}
+    ~*{{ regex }} 1;
+{% endfor %}
+}
+

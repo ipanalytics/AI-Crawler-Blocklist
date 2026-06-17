@@ -1,0 +1,5 @@
+{{ hash_header }}{% for agent in agents -%}
+(http.user_agent contains "{{ agent }}"){% if not loop.last %} or
+{% endif %}
+{%- endfor %}
+

@@ -1,0 +1,22 @@
+# AI-Crawler-Blocklist
+# Generated: 2026-06-17T00:00:00Z
+# Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
+# Policy: official/operator-published sources only
+# WARNING: Review before hard drop. Search crawlers may affect visibility.
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /

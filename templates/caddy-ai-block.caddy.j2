@@ -1,0 +1,8 @@
+{{ hash_header }}@ai_crawler {
+{% for agent in agents %}
+  header_regexp User-Agent (?i).*{{ agent }}.*
+{% endfor %}
+}
+
+respond @ai_crawler 403
+

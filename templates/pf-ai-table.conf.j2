@@ -1,0 +1,11 @@
+{{ hash_header }}table <ai_crawlers> persist {
+{% for cidr in v4 %}
+  {{ cidr }}
+{% endfor %}
+{% for cidr in v6 %}
+  {{ cidr }}
+{% endfor %}
+}
+
+block drop in quick from <ai_crawlers> to any
+

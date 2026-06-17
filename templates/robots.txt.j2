@@ -1,0 +1,6 @@
+{{ hash_header }}{% for agent in agents %}
+User-agent: {{ agent }}
+Disallow: /
+
+{% endfor %}
+

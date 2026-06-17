@@ -1,0 +1,18 @@
+{{ hash_header }}geo $ai_crawler_ip {
+    default 0;
+{% for cidr in v4 %}
+    {{ cidr }} 1;
+{% endfor %}
+{% for cidr in v6 %}
+    {{ cidr }} 1;
+{% endfor %}
+}
+
+if ($ai_crawler) {
+    return 403;
+}
+
+if ($ai_crawler_ip) {
+    return 403;
+}
+

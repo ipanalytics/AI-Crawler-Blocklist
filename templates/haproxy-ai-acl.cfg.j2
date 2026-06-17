@@ -1,0 +1,5 @@
+{{ hash_header }}{% for agent in agents %}
+acl ai_crawler_{{ loop.index }} req.hdr(User-Agent) -m sub -i {{ agent }}
+{% endfor %}
+http-request deny if{% for agent in agents %} ai_crawler_{{ loop.index }}{% if not loop.last %} or{% endif %}{% endfor %}
+

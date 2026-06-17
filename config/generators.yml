@@ -1,0 +1,32 @@
+outputs:
+  - dist/ai-ips-verified-v4.txt
+  - dist/ai-ips-verified-v6.txt
+  - dist/ai-ips-verified-all.txt
+  - dist/ai-ips-high-confidence-v4.txt
+  - dist/ai-ips-high-confidence-v6.txt
+  - dist/ai-user-agents.txt
+  - dist/ai-user-agents-regex.txt
+  - dist/ai-user-agents-nginx-map.conf
+  - dist/ai-user-agents-apache-setenvif.conf
+  - dist/ai-user-agents-cloudflare-expression.txt
+  - dist/ai-cn-user-agents-watch.txt
+  - dist/ai-cn-user-agents-block.txt
+  - dist/ai-watch-asn.txt
+  - dist/ai-cloud-hosting-watch.txt
+  - dist/robots-ai-training-block.txt
+  - dist/robots-ai-all-block.txt
+  - dist/robots-ai-chinese-bots-block.txt
+  - dist/robots-search-safe-ai-optout.txt
+  - dist/nginx-ai-map.conf
+  - dist/nginx-ai-deny.conf
+  - dist/apache-ai-setenvif.conf
+  - dist/cloudflare-ai-expression.txt
+  - dist/iptables-ai.sh
+  - dist/nftables-ai.nft
+  - dist/pf-ai-table.conf
+  - dist/caddy-ai-block.caddy
+  - dist/haproxy-ai-acl.cfg
+  - dist/traefik-ai-middleware.yml
+  - dist/metadata.json
+  - dist/sources-report.md
+

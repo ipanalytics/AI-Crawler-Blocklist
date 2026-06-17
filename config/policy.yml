@@ -1,0 +1,57 @@
+project: AI-Crawler-Blocklist
+policy: official/operator-published sources only
+ai_only: true
+
+allowed_ai_categories:
+  - ai
+  - ai-watch
+  - archive
+  - fetcher
+
+excluded_categories:
+  - search
+  - seo
+  - monitoring
+  - social
+  - analytics
+  - ad-verification
+  - security-scanner
+
+aggregator_hosts:
+  - github.com
+  - raw.githubusercontent.com
+  - gitlab.com
+  - bitbucket.org
+  - blocklistproject.github.io
+  - firebog.net
+  - raw.github.com
+
+source_type_confidence:
+  official_json: 100
+  official_text: 100
+  official_embedded_json: 100
+  official_html: 90
+  known_static: 40
+  documented_user_agent: 50
+  robots_token: 100
+  manual_static: 30
+
+confidence_mapping:
+  verified_drop_min: 90
+  high_confidence_min: 70
+  ua_block_min: 50
+  watch_max: 49
+
+robots_only_tokens:
+  - Google-Extended
+  - Applebot-Extended
+
+cn_watch_countries:
+  - CN
+
+watch_operators:
+  - Baidu
+  - ByteDance
+  - Huawei
+  - Meta
+

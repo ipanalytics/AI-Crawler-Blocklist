@@ -1,0 +1,10 @@
+{{ hash_header }}http:
+  middlewares:
+    ai-crawler-block:
+      plugin:
+        aiCrawlerBlock:
+          userAgents:
+{% for agent in agents %}
+            - "{{ agent }}"
+{% endfor %}
+

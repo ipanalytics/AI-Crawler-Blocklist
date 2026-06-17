@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schemaVersion", "sources"],
+  "properties": {
+    "description": {"type": "string"},
+    "schemaVersion": {"type": "integer"},
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "operator",
+          "service",
+          "category",
+          "sourceType",
+          "sourceUrl",
+          "authoritative",
+          "userAgentPatterns"
+        ],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+          "operator": {"type": "string"},
+          "operatorCountry": {"type": "string"},
+          "service": {"type": "string"},
+          "category": {"type": "string"},
+          "sourceType": {
+            "type": "string",
+            "enum": [
+              "official_json",
+              "official_text",
+              "official_embedded_json",
+              "official_html",
+              "known_static",
+              "documented_user_agent",
+              "robots_token",
+              "manual_static"
+            ]
+          },
+          "sourceUrl": {"type": "string", "format": "uri"},
+          "sourceUrls": {"type": "array", "items": {"type": "string", "format": "uri"}},
+          "documentationUrl": {"type": "string"},
+          "authoritative": {"type": "boolean"},
+          "robotsOnly": {"type": "boolean"},
+          "userAgentPatterns": {"type": "array", "items": {"type": "string"}},
+          "staticPrefixes": {"type": "array", "items": {"type": "string"}},
+          "aiUse": {"type": "array", "items": {"type": "string"}},
+          "falsePositiveRisk": {"type": "string"},
+          "visibilityImpact": {"type": "string"},
+          "note": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    }
+  }
+}
+

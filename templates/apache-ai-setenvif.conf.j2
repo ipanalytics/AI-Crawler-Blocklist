@@ -1,0 +1,8 @@
+{{ hash_header }}{% for regex in regexes %}
+SetEnvIfNoCase User-Agent "{{ regex }}" ai_crawler
+{% endfor %}
+<RequireAll>
+    Require all granted
+    Require not env ai_crawler
+</RequireAll>
+

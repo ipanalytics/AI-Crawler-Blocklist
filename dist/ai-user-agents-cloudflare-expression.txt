@@ -1,0 +1,29 @@
+# AI-Crawler-Blocklist
+# Generated: 2026-06-17T00:00:00Z
+# Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
+# Policy: official/operator-published sources only
+# WARNING: Review before hard drop. Search crawlers may affect visibility.
+(http.user_agent contains "Amazonbot") or
+(http.user_agent contains "Amzn-SearchBot") or
+(http.user_agent contains "Amzn-User") or
+(http.user_agent contains "anthropic-ai") or
+(http.user_agent contains "Baiduspider") or
+(http.user_agent contains "Bytespider") or
+(http.user_agent contains "ByteSpider") or
+(http.user_agent contains "CCBot") or
+(http.user_agent contains "ChatGPT-User") or
+(http.user_agent contains "Claude-SearchBot") or
+(http.user_agent contains "Claude-User") or
+(http.user_agent contains "ClaudeBot") or
+(http.user_agent contains "DuckAssistBot") or
+(http.user_agent contains "FacebookBot") or
+(http.user_agent contains "GPTBot") or
+(http.user_agent contains "meta-externalagent") or
+(http.user_agent contains "meta-externalfetcher") or
+(http.user_agent contains "meta-webindexer") or
+(http.user_agent contains "MistralAI-User") or
+(http.user_agent contains "OAI-AdsBot") or
+(http.user_agent contains "OAI-SearchBot") or
+(http.user_agent contains "Perplexity-User") or
+(http.user_agent contains "PerplexityBot") or
+(http.user_agent contains "PetalBot")
