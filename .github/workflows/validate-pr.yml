@@ -1,0 +1,36 @@
+name: Validate PR
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+      - name: Validate source schema
+        run: python scripts/normalize_sources.py --check
+      - name: Run tests
+        run: pytest -q
+      - name: Build dist
+        run: python scripts/build.py
+      - name: Validate outputs
+        run: python scripts/validate_outputs.py
+      - name: Fail if generated files are inconsistent
+        run: |
+          if [ -n "$(git status --porcelain dist)" ]; then
+            git status --short dist
+            git diff -- dist
+            exit 1
+          fi
+
