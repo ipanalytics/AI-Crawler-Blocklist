@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # AI-Crawler-Blocklist
-# Generated: 2026-06-27T14:06:26Z
+# Generated: 2026-06-27T19:44:55Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -304,11 +304,8 @@ ipset add "$IPSET_V4" "18.235.158.19/32" -exist
 ipset add "$IPSET_V4" "18.235.176.68/32" -exist
 ipset add "$IPSET_V4" "18.235.81.246/32" -exist
 ipset add "$IPSET_V4" "18.97.1.228/30" -exist
-ipset add "$IPSET_V4" "18.97.14.80/29" -exist
-ipset add "$IPSET_V4" "18.97.14.88/30" -exist
 ipset add "$IPSET_V4" "18.97.21.0/30" -exist
 ipset add "$IPSET_V4" "18.97.43.80/29" -exist
-ipset add "$IPSET_V4" "18.97.9.168/29" -exist
 ipset add "$IPSET_V4" "18.97.9.96/29" -exist
 ipset add "$IPSET_V4" "184.72.220.200/32" -exist
 ipset add "$IPSET_V4" "184.72.231.109/32" -exist
@@ -843,7 +840,6 @@ ipset add "$IPSET_V4" "3.234.8.148/32" -exist
 ipset add "$IPSET_V4" "3.235.12.133/32" -exist
 ipset add "$IPSET_V4" "3.235.125.9/32" -exist
 ipset add "$IPSET_V4" "3.235.215.92/32" -exist
-ipset add "$IPSET_V4" "3.41.188.32/29" -exist
 ipset add "$IPSET_V4" "3.81.194.188/32" -exist
 ipset add "$IPSET_V4" "3.81.253.151/32" -exist
 ipset add "$IPSET_V4" "3.81.253.213/32" -exist
@@ -2204,7 +2200,6 @@ ipset add "$IPSET_V4" "98.85.106.40/32" -exist
 ipset add "$IPSET_V4" "98.85.137.77/32" -exist
 ipset add "$IPSET_V4" "98.85.140.218/32" -exist
 ipset add "$IPSET_V4" "98.85.146.158/32" -exist
-ipset add "$IPSET_V4" "98.85.178.216/32" -exist
 ipset add "$IPSET_V4" "98.85.211.76/32" -exist
 ipset add "$IPSET_V4" "98.85.214.32/32" -exist
 ipset add "$IPSET_V4" "98.85.218.4/32" -exist
@@ -2275,7 +2270,6 @@ ipset add "$IPSET_V4" "98.87.91.253/32" -exist
 ipset add "$IPSET_V4" "98.87.92.12/32" -exist
 ipset add "$IPSET_V4" "98.87.95.193/32" -exist
 ipset add "$IPSET_V4" "98.87.95.44/32" -exist
-ipset add "$IPSET_V6" "2600:1f28:365:80b0::/60" -exist
 
 iptables -C INPUT -m set --match-set "$IPSET_V4" src -j DROP 2>/dev/null || iptables -I INPUT -m set --match-set "$IPSET_V4" src -j DROP
 ip6tables -C INPUT -m set --match-set "$IPSET_V6" src -j DROP 2>/dev/null || ip6tables -I INPUT -m set --match-set "$IPSET_V6" src -j DROP
