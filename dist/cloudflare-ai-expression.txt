@@ -1,5 +1,5 @@
 # AI-Crawler-Blocklist
-# Generated: 2026-06-29T20:16:01Z
+# Generated: 2026-06-30T04:34:18Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -8,8 +8,8 @@
 (http.user_agent contains "Amzn-User") or
 (http.user_agent contains "anthropic-ai") or
 (http.user_agent contains "Baiduspider") or
-(http.user_agent contains "ByteSpider") or
 (http.user_agent contains "Bytespider") or
+(http.user_agent contains "ByteSpider") or
 (http.user_agent contains "CCBot") or
 (http.user_agent contains "ChatGPT-User") or
 (http.user_agent contains "Claude-SearchBot") or
