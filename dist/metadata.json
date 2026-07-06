@@ -2,11 +2,11 @@
   "counts": {
     "robots_tokens": 26,
     "user_agent_patterns": 24,
-    "verified_ipv4_prefixes": 2333,
+    "verified_ipv4_prefixes": 2334,
     "verified_ipv6_prefixes": 1
   },
   "failed_sources": [],
-  "generated_at": "2026-07-06T15:54:50Z",
+  "generated_at": "2026-07-06T20:14:13Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -173,7 +173,7 @@
       "id": "openai-chatgpt-user",
       "ipPolicy": "verified-drop",
       "operator": "OpenAI",
-      "prefixes_v4": 221,
+      "prefixes_v4": 222,
       "prefixes_v6": 0,
       "service": "ChatGPT-User",
       "status": "ok"
