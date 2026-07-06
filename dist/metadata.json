@@ -2,24 +2,11 @@
   "counts": {
     "robots_tokens": 26,
     "user_agent_patterns": 24,
-    "verified_ipv4_prefixes": 2256,
-    "verified_ipv6_prefixes": 0
+    "verified_ipv4_prefixes": 2261,
+    "verified_ipv6_prefixes": 1
   },
-  "failed_sources": [
-    {
-      "confidence": 100,
-      "enforcement": "drop",
-      "error": "https://index.commoncrawl.org/ccbot.json: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-      "id": "ccbot",
-      "ipPolicy": "verified-drop",
-      "operator": "Common Crawl",
-      "prefixes_v4": 0,
-      "prefixes_v6": 0,
-      "service": "Common Crawl CCBot",
-      "status": "failed"
-    }
-  ],
-  "generated_at": "2026-07-05T19:41:58Z",
+  "failed_sources": [],
+  "generated_at": "2026-07-06T04:38:54Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -110,14 +97,14 @@
     {
       "confidence": 100,
       "enforcement": "drop",
-      "error": "https://index.commoncrawl.org/ccbot.json: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "error": null,
       "id": "ccbot",
       "ipPolicy": "verified-drop",
       "operator": "Common Crawl",
-      "prefixes_v4": 0,
-      "prefixes_v6": 0,
+      "prefixes_v4": 5,
+      "prefixes_v6": 1,
       "service": "Common Crawl CCBot",
-      "status": "failed"
+      "status": "ok"
     },
     {
       "confidence": 100,
