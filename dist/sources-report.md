@@ -1,5 +1,5 @@
 <!-- AI-Crawler-Blocklist -->
-<!-- Generated: 2026-07-06T11:03:10Z -->
+<!-- Generated: 2026-07-06T15:54:50Z -->
 <!-- Source: https://github.com/ipanalytics/AI-Crawler-Blocklist -->
 <!-- Policy: official/operator-published sources only -->
 <!-- WARNING: Review before hard drop. Search crawlers may affect visibility. -->
@@ -15,7 +15,7 @@
 | `baiduspider-ai-watch` | Baidu | log-only | static-watch | ok | 0 | 0 |
 | `bytespider` | ByteDance | log-only | static-watch | ok | 0 | 0 |
 | `ccbot` | Common Crawl | drop | verified-drop | ok | 5 | 1 |
-| `duckassistbot` | DuckDuckGo | drop | verified-drop | ok | 407 | 0 |
+| `duckassistbot` | DuckDuckGo | drop | verified-drop | ok | 479 | 0 |
 | `google-extended` | Google | robots-only | robots-only | ok | 0 | 0 |
 | `meta-ai-crawlers` | Meta | log-only | static-watch | ok | 3 | 1 |
 | `mistralai-user` | Mistral AI | drop | verified-drop | ok | 4 | 0 |
