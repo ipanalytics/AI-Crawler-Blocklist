@@ -1,15 +1,15 @@
 # AI-Crawler-Blocklist
-# Generated: 2026-07-09T04:15:16Z
+# Generated: 2026-07-09T09:57:21Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
 User-agent: Baiduspider
 Disallow: /
 
-User-agent: Bytespider
+User-agent: ByteSpider
 Disallow: /
 
-User-agent: ByteSpider
+User-agent: Bytespider
 Disallow: /
 
 User-agent: PetalBot
