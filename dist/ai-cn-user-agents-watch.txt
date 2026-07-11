@@ -1,9 +1,9 @@
 # AI-Crawler-Blocklist
-# Generated: 2026-07-10T19:51:16Z
+# Generated: 2026-07-11T03:42:47Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
 Baiduspider
-Bytespider
 ByteSpider
+Bytespider
 PetalBot
