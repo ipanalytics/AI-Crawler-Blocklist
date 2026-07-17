@@ -1,5 +1,5 @@
 # AI-Crawler-Blocklist
-# Generated: 2026-07-16T19:34:09Z
+# Generated: 2026-07-17T03:36:51Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -9,8 +9,8 @@
   header_regexp User-Agent (?i).*Amzn-User.*
   header_regexp User-Agent (?i).*anthropic-ai.*
   header_regexp User-Agent (?i).*Baiduspider.*
-  header_regexp User-Agent (?i).*Bytespider.*
   header_regexp User-Agent (?i).*ByteSpider.*
+  header_regexp User-Agent (?i).*Bytespider.*
   header_regexp User-Agent (?i).*CCBot.*
   header_regexp User-Agent (?i).*ChatGPT-User.*
   header_regexp User-Agent (?i).*Claude-SearchBot.*
