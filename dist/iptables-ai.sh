@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # AI-Crawler-Blocklist
-# Generated: 2026-08-12T19:20:14Z
+# Generated: 2026-08-13T02:46:47Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -226,7 +226,6 @@ ipset add "$IPSET_V4" "172.205.189.192/28" -exist
 ipset add "$IPSET_V4" "172.207.1.32/28" -exist
 ipset add "$IPSET_V4" "172.208.128.32/27" -exist
 ipset add "$IPSET_V4" "172.210.111.68/32" -exist
-ipset add "$IPSET_V4" "172.212.159.64/28" -exist
 ipset add "$IPSET_V4" "172.212.172.160/28" -exist
 ipset add "$IPSET_V4" "172.215.215.32/28" -exist
 ipset add "$IPSET_V4" "172.215.218.96/28" -exist
@@ -424,7 +423,6 @@ ipset add "$IPSET_V4" "20.191.44.22/32" -exist
 ipset add "$IPSET_V4" "20.191.44.234/32" -exist
 ipset add "$IPSET_V4" "20.191.45.212/32" -exist
 ipset add "$IPSET_V4" "20.193.12.126/32" -exist
-ipset add "$IPSET_V4" "20.193.233.240/28" -exist
 ipset add "$IPSET_V4" "20.193.24.10/32" -exist
 ipset add "$IPSET_V4" "20.193.24.251/32" -exist
 ipset add "$IPSET_V4" "20.193.25.197/32" -exist
@@ -457,7 +455,6 @@ ipset add "$IPSET_V4" "20.207.72.21/32" -exist
 ipset add "$IPSET_V4" "20.207.97.190/32" -exist
 ipset add "$IPSET_V4" "20.207.99.197/32" -exist
 ipset add "$IPSET_V4" "20.210.154.128/28" -exist
-ipset add "$IPSET_V4" "20.210.174.208/28" -exist
 ipset add "$IPSET_V4" "20.210.211.192/28" -exist
 ipset add "$IPSET_V4" "20.212.139.34/32" -exist
 ipset add "$IPSET_V4" "20.212.90.107/32" -exist
@@ -465,8 +462,6 @@ ipset add "$IPSET_V4" "20.215.187.208/28" -exist
 ipset add "$IPSET_V4" "20.215.219.128/28" -exist
 ipset add "$IPSET_V4" "20.215.219.160/28" -exist
 ipset add "$IPSET_V4" "20.215.219.208/28" -exist
-ipset add "$IPSET_V4" "20.215.220.128/28" -exist
-ipset add "$IPSET_V4" "20.215.220.176/28" -exist
 ipset add "$IPSET_V4" "20.216.200.223/32" -exist
 ipset add "$IPSET_V4" "20.218.30.240/28" -exist
 ipset add "$IPSET_V4" "20.219.43.246/32" -exist
@@ -521,7 +516,6 @@ ipset add "$IPSET_V4" "20.252.9.6/32" -exist
 ipset add "$IPSET_V4" "20.253.114.51/32" -exist
 ipset add "$IPSET_V4" "20.253.59.76/32" -exist
 ipset add "$IPSET_V4" "20.253.96.199/32" -exist
-ipset add "$IPSET_V4" "20.27.94.128/28" -exist
 ipset add "$IPSET_V4" "20.29.149.44/32" -exist
 ipset add "$IPSET_V4" "20.29.154.56/32" -exist
 ipset add "$IPSET_V4" "20.3.1.178/32" -exist
@@ -1210,8 +1204,6 @@ ipset add "$IPSET_V4" "4.197.22.112/28" -exist
 ipset add "$IPSET_V4" "4.197.64.0/27" -exist
 ipset add "$IPSET_V4" "4.197.64.48/28" -exist
 ipset add "$IPSET_V4" "4.197.64.64/28" -exist
-ipset add "$IPSET_V4" "4.198.72.16/28" -exist
-ipset add "$IPSET_V4" "4.198.96.112/28" -exist
 ipset add "$IPSET_V4" "4.201.125.59/32" -exist
 ipset add "$IPSET_V4" "4.201.141.71/32" -exist
 ipset add "$IPSET_V4" "4.201.197.203/32" -exist
@@ -1454,7 +1446,6 @@ ipset add "$IPSET_V4" "44.223.230.228/32" -exist
 ipset add "$IPSET_V4" "44.223.232.55/32" -exist
 ipset add "$IPSET_V4" "48.192.16.86/32" -exist
 ipset add "$IPSET_V4" "48.192.74.178/32" -exist
-ipset add "$IPSET_V4" "48.193.44.32/28" -exist
 ipset add "$IPSET_V4" "48.200.33.227/32" -exist
 ipset add "$IPSET_V4" "48.202.155.200/32" -exist
 ipset add "$IPSET_V4" "48.202.171.124/32" -exist
@@ -1534,7 +1525,6 @@ ipset add "$IPSET_V4" "51.57.0.96/28" -exist
 ipset add "$IPSET_V4" "51.59.24.64/27" -exist
 ipset add "$IPSET_V4" "51.59.40.80/28" -exist
 ipset add "$IPSET_V4" "51.59.48.80/28" -exist
-ipset add "$IPSET_V4" "51.59.48.96/28" -exist
 ipset add "$IPSET_V4" "51.8.102.0/24" -exist
 ipset add "$IPSET_V4" "51.8.155.112/28" -exist
 ipset add "$IPSET_V4" "51.8.155.48/28" -exist
@@ -1613,7 +1603,6 @@ ipset add "$IPSET_V4" "52.154.171.70/32" -exist
 ipset add "$IPSET_V4" "52.154.171.87/32" -exist
 ipset add "$IPSET_V4" "52.154.172.2/32" -exist
 ipset add "$IPSET_V4" "52.154.204.93/32" -exist
-ipset add "$IPSET_V4" "52.154.22.48/28" -exist
 ipset add "$IPSET_V4" "52.154.60.82/32" -exist
 ipset add "$IPSET_V4" "52.156.77.144/28" -exist
 ipset add "$IPSET_V4" "52.159.227.32/28" -exist
@@ -1621,7 +1610,6 @@ ipset add "$IPSET_V4" "52.159.249.96/28" -exist
 ipset add "$IPSET_V4" "52.161.49.96/28" -exist
 ipset add "$IPSET_V4" "52.165.212.48/28" -exist
 ipset add "$IPSET_V4" "52.172.129.160/28" -exist
-ipset add "$IPSET_V4" "52.172.251.112/28" -exist
 ipset add "$IPSET_V4" "52.173.219.96/27" -exist
 ipset add "$IPSET_V4" "52.173.221.16/28" -exist
 ipset add "$IPSET_V4" "52.173.221.176/28" -exist
@@ -1769,7 +1757,6 @@ ipset add "$IPSET_V4" "52.23.146.199/32" -exist
 ipset add "$IPSET_V4" "52.23.51.117/32" -exist
 ipset add "$IPSET_V4" "52.23.97.153/32" -exist
 ipset add "$IPSET_V4" "52.230.152.0/24" -exist
-ipset add "$IPSET_V4" "52.230.163.32/28" -exist
 ipset add "$IPSET_V4" "52.231.30.48/28" -exist
 ipset add "$IPSET_V4" "52.231.34.176/28" -exist
 ipset add "$IPSET_V4" "52.231.39.144/28" -exist
@@ -1778,13 +1765,12 @@ ipset add "$IPSET_V4" "52.236.94.144/28" -exist
 ipset add "$IPSET_V4" "52.241.146.208/28" -exist
 ipset add "$IPSET_V4" "52.242.132.224/27" -exist
 ipset add "$IPSET_V4" "52.242.224.168/32" -exist
-ipset add "$IPSET_V4" "52.242.245.208/28" -exist
 ipset add "$IPSET_V4" "52.250.46.221/32" -exist
 ipset add "$IPSET_V4" "52.255.109.144/28" -exist
 ipset add "$IPSET_V4" "52.255.109.80/28" -exist
 ipset add "$IPSET_V4" "52.255.109.96/27" -exist
 ipset add "$IPSET_V4" "52.255.111.0/28" -exist
-ipset add "$IPSET_V4" "52.255.111.32/27" -exist
+ipset add "$IPSET_V4" "52.255.111.32/28" -exist
 ipset add "$IPSET_V4" "52.255.111.80/28" -exist
 ipset add "$IPSET_V4" "52.3.102.51/32" -exist
 ipset add "$IPSET_V4" "52.3.104.17/32" -exist
