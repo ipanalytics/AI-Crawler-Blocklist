@@ -1,5 +1,5 @@
 <!-- AI-Crawler-Blocklist -->
-<!-- Generated: 2026-08-13T19:19:40Z -->
+<!-- Generated: 2026-08-14T02:45:40Z -->
 <!-- Source: https://github.com/ipanalytics/AI-Crawler-Blocklist -->
 <!-- Policy: official/operator-published sources only -->
 <!-- WARNING: Review before hard drop. Search crawlers may affect visibility. -->
@@ -10,7 +10,7 @@
 | `amazon-amzn-user` | Amazon | drop | verified-drop | ok | 1023 | 0 |
 | `amazon-searchbot` | Amazon | drop | verified-drop | ok | 0 | 0 |
 | `amazonbot` | Amazon | drop | verified-drop | ok | 524 | 0 |
-| `anthropic-claude-bots` | Anthropic | drop | verified-drop | ok | 21 | 0 |
+| `anthropic-claude-bots` | Anthropic | drop | verified-drop | ok | 23 | 0 |
 | `applebot-extended` | Apple | robots-only | robots-only | ok | 0 | 0 |
 | `baiduspider-ai-watch` | Baidu | log-only | static-watch | ok | 0 | 0 |
 | `bytespider` | ByteDance | log-only | static-watch | ok | 0 | 0 |
@@ -20,7 +20,7 @@
 | `meta-ai-crawlers` | Meta | log-only | static-watch | ok | 3 | 1 |
 | `mistralai-user` | Mistral AI | drop | verified-drop | ok | 4 | 0 |
 | `openai-adsbot` | OpenAI | block | ua-only | ok | 0 | 0 |
-| `openai-chatgpt-user` | OpenAI | drop | verified-drop | ok | 213 | 0 |
+| `openai-chatgpt-user` | OpenAI | drop | verified-drop | ok | 198 | 0 |
 | `openai-gptbot` | OpenAI | drop | verified-drop | ok | 17 | 0 |
 | `openai-searchbot` | OpenAI | drop | verified-drop | ok | 32 | 0 |
 | `perplexity-user` | Perplexity | drop | verified-drop | ok | 4 | 0 |
