@@ -2,11 +2,24 @@
   "counts": {
     "robots_tokens": 26,
     "user_agent_patterns": 24,
-    "verified_ipv4_prefixes": 2308,
-    "verified_ipv6_prefixes": 1
+    "verified_ipv4_prefixes": 2303,
+    "verified_ipv6_prefixes": 0
   },
-  "failed_sources": [],
-  "generated_at": "2026-08-15T18:47:18Z",
+  "failed_sources": [
+    {
+      "confidence": 100,
+      "enforcement": "drop",
+      "error": "https://index.commoncrawl.org/ccbot.json: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/ccbot.json",
+      "id": "ccbot",
+      "ipPolicy": "verified-drop",
+      "operator": "Common Crawl",
+      "prefixes_v4": 0,
+      "prefixes_v6": 0,
+      "service": "Common Crawl CCBot",
+      "status": "failed"
+    }
+  ],
+  "generated_at": "2026-08-16T01:56:54Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -97,14 +110,14 @@
     {
       "confidence": 100,
       "enforcement": "drop",
-      "error": null,
+      "error": "https://index.commoncrawl.org/ccbot.json: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/ccbot.json",
       "id": "ccbot",
       "ipPolicy": "verified-drop",
       "operator": "Common Crawl",
-      "prefixes_v4": 5,
-      "prefixes_v6": 1,
+      "prefixes_v4": 0,
+      "prefixes_v6": 0,
       "service": "Common Crawl CCBot",
-      "status": "ok"
+      "status": "failed"
     },
     {
       "confidence": 100,
