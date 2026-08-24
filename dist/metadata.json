@@ -2,11 +2,11 @@
   "counts": {
     "robots_tokens": 26,
     "user_agent_patterns": 24,
-    "verified_ipv4_prefixes": 2311,
+    "verified_ipv4_prefixes": 2310,
     "verified_ipv6_prefixes": 1
   },
   "failed_sources": [],
-  "generated_at": "2026-08-24T13:12:34Z",
+  "generated_at": "2026-08-24T18:59:02Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -101,7 +101,7 @@
       "id": "ccbot",
       "ipPolicy": "verified-drop",
       "operator": "Common Crawl",
-      "prefixes_v4": 5,
+      "prefixes_v4": 4,
       "prefixes_v6": 1,
       "service": "Common Crawl CCBot",
       "status": "ok"
