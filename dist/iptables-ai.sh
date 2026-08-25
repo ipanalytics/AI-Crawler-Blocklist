@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # AI-Crawler-Blocklist
-# Generated: 2026-08-25T13:10:56Z
+# Generated: 2026-08-25T18:56:19Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
