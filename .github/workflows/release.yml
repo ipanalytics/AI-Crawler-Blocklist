@@ -36,8 +36,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          tag="daily-$(date -u +%Y-%m-%d)"
+          tag="daily-current"
           title="AI Crawler Blocklists $(date -u +%Y-%m-%d)"
+          gh release delete "$tag" --cleanup-tag --yes || true
           if gh release view "$tag" >/dev/null 2>&1; then
             gh release upload "$tag" ai-crawler-blocklist-dist.tar.gz dist/metadata.json dist/sources-report.md --clobber
           else
