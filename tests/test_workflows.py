@@ -41,7 +41,7 @@ def test_release_workflow_daily_release() -> None:
     workflow = load_workflow("release.yml")
     assert workflow_on(workflow)["schedule"][0]["cron"] == "43 2 * * *"
     text = (WORKFLOW_DIR / "release.yml").read_text(encoding="utf-8")
-    assert "daily-$(date -u +%Y-%m-%d)" in text
+    assert "daily-current" in text  # rolling release: fixed tag
     assert "gh release create" in text
     assert "gh release upload" in text
     assert "ai-crawler-blocklist-dist.tar.gz" in text
