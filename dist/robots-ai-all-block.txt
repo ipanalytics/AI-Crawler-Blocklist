@@ -1,5 +1,5 @@
 # AI-Crawler-Blocklist
-# Generated: 2026-08-28T11:23:25Z
+# Generated: 2026-08-29T16:43:29Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -21,10 +21,10 @@ Disallow: /
 User-agent: Baiduspider
 Disallow: /
 
-User-agent: ByteSpider
+User-agent: Bytespider
 Disallow: /
 
-User-agent: Bytespider
+User-agent: ByteSpider
 Disallow: /
 
 User-agent: CCBot
