@@ -2,11 +2,11 @@
   "counts": {
     "robots_tokens": 26,
     "user_agent_patterns": 24,
-    "verified_ipv4_prefixes": 2310,
+    "verified_ipv4_prefixes": 2315,
     "verified_ipv6_prefixes": 1
   },
   "failed_sources": [],
-  "generated_at": "2026-09-01T11:39:02Z",
+  "generated_at": "2026-09-01T16:40:07Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -113,7 +113,7 @@
       "id": "duckassistbot",
       "ipPolicy": "verified-drop",
       "operator": "DuckDuckGo",
-      "prefixes_v4": 479,
+      "prefixes_v4": 484,
       "prefixes_v6": 0,
       "service": "DuckAssistBot",
       "status": "ok"
