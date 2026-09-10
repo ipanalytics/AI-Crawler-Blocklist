@@ -2,11 +2,11 @@
   "counts": {
     "robots_tokens": 26,
     "user_agent_patterns": 24,
-    "verified_ipv4_prefixes": 2320,
+    "verified_ipv4_prefixes": 3088,
     "verified_ipv6_prefixes": 1
   },
   "failed_sources": [],
-  "generated_at": "2026-09-10T11:19:40Z",
+  "generated_at": "2026-09-10T16:24:17Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -41,7 +41,7 @@
       "id": "amazonbot",
       "ipPolicy": "verified-drop",
       "operator": "Amazon",
-      "prefixes_v4": 524,
+      "prefixes_v4": 1292,
       "prefixes_v6": 0,
       "service": "Amazonbot",
       "status": "ok"
