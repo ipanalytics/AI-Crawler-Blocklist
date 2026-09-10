@@ -1,5 +1,5 @@
 <!-- AI-Crawler-Blocklist -->
-<!-- Generated: 2026-09-10T16:24:17Z -->
+<!-- Generated: 2026-09-10T20:52:11Z -->
 <!-- Source: https://github.com/ipanalytics/AI-Crawler-Blocklist -->
 <!-- Policy: official/operator-published sources only -->
 <!-- WARNING: Review before hard drop. Search crawlers may affect visibility. -->
@@ -22,7 +22,7 @@
 | `openai-adsbot` | OpenAI | block | ua-only | ok | 0 | 0 |
 | `openai-chatgpt-user` | OpenAI | drop | verified-drop | ok | 198 | 0 |
 | `openai-gptbot` | OpenAI | drop | verified-drop | ok | 17 | 0 |
-| `openai-searchbot` | OpenAI | drop | verified-drop | ok | 32 | 0 |
+| `openai-searchbot` | OpenAI | drop | verified-drop | ok | 36 | 0 |
 | `perplexity-user` | Perplexity | drop | verified-drop | ok | 4 | 0 |
 | `perplexitybot` | Perplexity | drop | verified-drop | ok | 8 | 0 |
 | `petalbot-ai-watch` | Huawei | log-only | static-watch | ok | 0 | 0 |

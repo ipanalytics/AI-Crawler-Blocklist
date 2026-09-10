@@ -2,11 +2,11 @@
   "counts": {
     "robots_tokens": 26,
     "user_agent_patterns": 24,
-    "verified_ipv4_prefixes": 3088,
+    "verified_ipv4_prefixes": 3092,
     "verified_ipv6_prefixes": 1
   },
   "failed_sources": [],
-  "generated_at": "2026-09-10T16:24:17Z",
+  "generated_at": "2026-09-10T20:52:11Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -197,7 +197,7 @@
       "id": "openai-searchbot",
       "ipPolicy": "verified-drop",
       "operator": "OpenAI",
-      "prefixes_v4": 32,
+      "prefixes_v4": 36,
       "prefixes_v6": 0,
       "service": "OAI-SearchBot",
       "status": "ok"
