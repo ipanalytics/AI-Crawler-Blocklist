@@ -1,5 +1,7 @@
 # AI-Crawler-Blocklist
 
+_Русская версия: [README.ru.md](README.ru.md)_
+
 AI-Crawler-Blocklist publishes AI crawler blocklists and deployment-ready firewall snippets from official operator-published sources. It separates verified IP ranges, user-agent rules, robots.txt controls, and watch lists so site operators can choose the right enforcement level without mixing signal quality.
 
 
@@ -299,4 +301,3 @@ MIT. See [`LICENSE`](./LICENSE).
 ## Disclaimer
 
 This project provides defensive network and application-layer control data. Operators are responsible for testing enforcement impact in their own environment before blocking traffic.
-
