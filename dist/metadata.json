@@ -1,25 +1,12 @@
 {
   "counts": {
-    "robots_tokens": 26,
-    "user_agent_patterns": 24,
-    "verified_ipv4_prefixes": 2627,
-    "verified_ipv6_prefixes": 1
+    "robots_tokens": 27,
+    "user_agent_patterns": 25,
+    "verified_ipv4_prefixes": 3116,
+    "verified_ipv6_prefixes": 2
   },
-  "failed_sources": [
-    {
-      "confidence": 100,
-      "enforcement": "drop",
-      "error": "https://duckduckgo.com/duckassistbot.json: HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /duckassistbot.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='duckduckgo.com', port=443) at 0x7f84fd9b2b70>, 'Connection to duckduckgo.com timed out. (connect timeout=20)'))",
-      "id": "duckassistbot",
-      "ipPolicy": "verified-drop",
-      "operator": "DuckDuckGo",
-      "prefixes_v4": 0,
-      "prefixes_v6": 0,
-      "service": "DuckAssistBot",
-      "status": "failed"
-    }
-  ],
-  "generated_at": "2026-09-27T12:02:15Z",
+  "failed_sources": [],
+  "generated_at": "2026-09-27T15:21:32Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -122,14 +109,26 @@
     {
       "confidence": 100,
       "enforcement": "drop",
-      "error": "https://duckduckgo.com/duckassistbot.json: HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /duckassistbot.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='duckduckgo.com', port=443) at 0x7f84fd9b2b70>, 'Connection to duckduckgo.com timed out. (connect timeout=20)'))",
+      "error": null,
       "id": "duckassistbot",
       "ipPolicy": "verified-drop",
       "operator": "DuckDuckGo",
-      "prefixes_v4": 0,
+      "prefixes_v4": 484,
       "prefixes_v6": 0,
       "service": "DuckAssistBot",
-      "status": "failed"
+      "status": "ok"
+    },
+    {
+      "confidence": 100,
+      "enforcement": "drop",
+      "error": null,
+      "id": "google-agent",
+      "ipPolicy": "verified-drop",
+      "operator": "Google",
+      "prefixes_v4": 5,
+      "prefixes_v6": 1,
+      "service": "Google-Agent",
+      "status": "ok"
     },
     {
       "confidence": 100,

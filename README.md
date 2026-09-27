@@ -25,6 +25,7 @@ AI-Crawler-Blocklist publishes AI crawler blocklists and deployment-ready firewa
 | Source policy | [`docs/source-policy.md`](./docs/source-policy.md) |
 | Firewall deployment notes | [`docs/firewalls.md`](./docs/firewalls.md) |
 | Operating modes | [`docs/modes.md`](./docs/modes.md) |
+| Verifying a crawler beyond its IP address | [`docs/verification-beyond-ip.md`](./docs/verification-beyond-ip.md) |
 | Source health report | [`dist/sources-report.md`](./dist/sources-report.md) |
 | Machine-readable metadata | [`dist/metadata.json`](./dist/metadata.json) |
 

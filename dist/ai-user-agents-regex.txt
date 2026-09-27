@@ -1,5 +1,5 @@
 # AI-Crawler-Blocklist
-# Generated: 2026-09-27T12:02:15Z
+# Generated: 2026-09-27T15:21:32Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -17,6 +17,7 @@ Claude\-User
 ClaudeBot
 DuckAssistBot
 FacebookBot
+Google\-Agent
 GPTBot
 meta\-externalagent
 meta\-externalfetcher

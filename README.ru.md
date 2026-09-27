@@ -25,6 +25,7 @@ AI-Crawler-Blocklist публикует блок-листы ИИ-краулер�
 | Политика источников | [`docs/source-policy.md`](./docs/source-policy.md) |
 | Заметки по развёртыванию файрволов | [`docs/firewalls.md`](./docs/firewalls.md) |
 | Режимы работы | [`docs/modes.md`](./docs/modes.md) |
+| Проверка краулера помимо IP-адреса | [`docs/verification-beyond-ip.md`](./docs/verification-beyond-ip.md) |
 | Отчёт о состоянии источников | [`dist/sources-report.md`](./dist/sources-report.md) |
 | Метаданные в машиночитаемом формате | [`dist/metadata.json`](./dist/metadata.json) |
 

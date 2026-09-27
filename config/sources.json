@@ -288,7 +288,8 @@
       "userAgentPatterns": ["Google-Extended"],
       "aiUse": ["training-optout"],
       "falsePositiveRisk": "low",
-      "visibilityImpact": "ai-feature-optout"
+      "visibilityImpact": "ai-feature-optout",
+      "note": "The AI-only opt-out for Google. Google-CloudVertexBot has no crawler-specific IP feed: it announces the same addresses as Googlebot and the rest of common-crawlers.json, so an IP block against it also removes Google Search. Keep the addresses allowed and opt out here instead."
     },
     {
       "id": "applebot-extended",
@@ -305,6 +306,23 @@
       "aiUse": ["training-optout"],
       "falsePositiveRisk": "low",
       "visibilityImpact": "apple-ai-training-optout"
+    },
+    {
+      "id": "google-agent",
+      "operator": "Google",
+      "operatorCountry": "US",
+      "service": "Google-Agent",
+      "category": "fetcher",
+      "sourceType": "official_json",
+      "sourceUrl": "https://developers.google.com/static/crawling/ipranges/user-triggered-agents.json",
+      "documentationUrl": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers",
+      "authoritative": true,
+      "robotsOnly": false,
+      "userAgentPatterns": ["Google-Agent"],
+      "aiUse": ["assistant-fetch"],
+      "falsePositiveRisk": "medium",
+      "visibilityImpact": "user-request-fetch-loss",
+      "note": "Google publishes the user-triggered fetcher address space across three files (user-triggered-fetchers.json, user-triggered-fetchers-google.json, user-triggered-agents.json); this entry takes the agents file, documented as Google-Agent. User-triggered fetchers ignore robots.txt by design, so robots rules cannot stop them; reverse DNS is ***-***-***-***.gae.googleusercontent.com for Google-owned and google-proxy-***-***-***-***.google.com for user-owned proxies. The range is shared with non-AI Google product fetchers."
     }
   ]
 }

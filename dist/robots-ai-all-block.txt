@@ -1,5 +1,5 @@
 # AI-Crawler-Blocklist
-# Generated: 2026-09-27T12:02:15Z
+# Generated: 2026-09-27T15:21:32Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -46,6 +46,9 @@ User-agent: DuckAssistBot
 Disallow: /
 
 User-agent: FacebookBot
+Disallow: /
+
+User-agent: Google-Agent
 Disallow: /
 
 User-agent: Google-Extended
