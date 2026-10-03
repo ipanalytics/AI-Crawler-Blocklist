@@ -2,11 +2,11 @@
   "counts": {
     "robots_tokens": 27,
     "user_agent_patterns": 25,
-    "verified_ipv4_prefixes": 3116,
+    "verified_ipv4_prefixes": 3118,
     "verified_ipv6_prefixes": 2
   },
   "failed_sources": [],
-  "generated_at": "2026-10-02T22:14:03Z",
+  "generated_at": "2026-10-03T05:18:38Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -53,7 +53,7 @@
       "id": "anthropic-claude-bots",
       "ipPolicy": "verified-drop",
       "operator": "Anthropic",
-      "prefixes_v4": 26,
+      "prefixes_v4": 28,
       "prefixes_v6": 0,
       "service": "ClaudeBot / Claude-SearchBot / Claude-User",
       "status": "ok"

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # AI-Crawler-Blocklist
-# Generated: 2026-10-02T22:14:03Z
+# Generated: 2026-10-03T05:18:38Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -290,6 +290,8 @@ ipset add "$IPSET_V4" "138.91.46.96/28" -exist
 ipset add "$IPSET_V4" "145.132.136.96/28" -exist
 ipset add "$IPSET_V4" "158.158.5.32/28" -exist
 ipset add "$IPSET_V4" "16.58.26.69/32" -exist
+ipset add "$IPSET_V4" "160.79.106.128/28" -exist
+ipset add "$IPSET_V4" "160.79.106.16/28" -exist
 ipset add "$IPSET_V4" "168.63.252.240/28" -exist
 ipset add "$IPSET_V4" "172.162.248.64/28" -exist
 ipset add "$IPSET_V4" "172.168.115.250/32" -exist

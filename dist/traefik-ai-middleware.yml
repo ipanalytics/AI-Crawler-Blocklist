@@ -1,5 +1,5 @@
 # AI-Crawler-Blocklist
-# Generated: 2026-10-02T22:14:03Z
+# Generated: 2026-10-03T05:18:38Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -14,8 +14,8 @@ http:
             - "Amzn-User"
             - "anthropic-ai"
             - "Baiduspider"
-            - "ByteSpider"
             - "Bytespider"
+            - "ByteSpider"
             - "CCBot"
             - "ChatGPT-User"
             - "Claude-SearchBot"
