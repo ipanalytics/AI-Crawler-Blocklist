@@ -6,7 +6,7 @@
     "verified_ipv6_prefixes": 2
   },
   "failed_sources": [],
-  "generated_at": "2026-10-03T21:15:14Z",
+  "generated_at": "2026-10-04T05:53:15Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
