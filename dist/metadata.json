@@ -2,11 +2,11 @@
   "counts": {
     "robots_tokens": 27,
     "user_agent_patterns": 25,
-    "verified_ipv4_prefixes": 3123,
+    "verified_ipv4_prefixes": 3132,
     "verified_ipv6_prefixes": 2
   },
   "failed_sources": [],
-  "generated_at": "2026-10-07T13:23:15Z",
+  "generated_at": "2026-10-07T23:05:12Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -53,7 +53,7 @@
       "id": "anthropic-claude-bots",
       "ipPolicy": "verified-drop",
       "operator": "Anthropic",
-      "prefixes_v4": 28,
+      "prefixes_v4": 38,
       "prefixes_v6": 0,
       "service": "ClaudeBot / Claude-SearchBot / Claude-User",
       "status": "ok"
@@ -185,7 +185,7 @@
       "id": "openai-chatgpt-user",
       "ipPolicy": "verified-drop",
       "operator": "OpenAI",
-      "prefixes_v4": 224,
+      "prefixes_v4": 223,
       "prefixes_v6": 0,
       "service": "ChatGPT-User",
       "status": "ok"
