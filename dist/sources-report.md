@@ -1,5 +1,5 @@
 <!-- AI-Crawler-Blocklist -->
-<!-- Generated: 2026-10-06T18:21:56Z -->
+<!-- Generated: 2026-10-07T05:59:33Z -->
 <!-- Source: https://github.com/ipanalytics/AI-Crawler-Blocklist -->
 <!-- Policy: official/operator-published sources only -->
 <!-- WARNING: Review before hard drop. Search crawlers may affect visibility. -->
@@ -21,7 +21,7 @@
 | `meta-ai-crawlers` | Meta | log-only | static-watch | ok | 3 | 1 |
 | `mistralai-user` | Mistral AI | drop | verified-drop | ok | 4 | 0 |
 | `openai-adsbot` | OpenAI | block | ua-only | ok | 0 | 0 |
-| `openai-chatgpt-user` | OpenAI | drop | verified-drop | ok | 219 | 0 |
+| `openai-chatgpt-user` | OpenAI | drop | verified-drop | ok | 224 | 0 |
 | `openai-gptbot` | OpenAI | drop | verified-drop | ok | 15 | 0 |
 | `openai-searchbot` | OpenAI | drop | verified-drop | ok | 36 | 0 |
 | `perplexity-user` | Perplexity | drop | verified-drop | ok | 4 | 0 |
