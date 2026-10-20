@@ -1,7 +1,6 @@
 # AI-Crawler-Blocklist
-# Generated: 2026-10-19T22:20:59Z
+# Generated: 2026-10-20T04:50:54Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
-2001:4860:c::/121
 2600:1f28:365:8000::/56
