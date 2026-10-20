@@ -2,24 +2,11 @@
   "counts": {
     "robots_tokens": 27,
     "user_agent_patterns": 25,
-    "verified_ipv4_prefixes": 3127,
-    "verified_ipv6_prefixes": 1
+    "verified_ipv4_prefixes": 3132,
+    "verified_ipv6_prefixes": 2
   },
-  "failed_sources": [
-    {
-      "confidence": 100,
-      "enforcement": "drop",
-      "error": "https://developers.google.com/static/crawling/ipranges/user-triggered-agents.json: HTTPSConnectionPool(host='developers.google.com', port=443): Read timed out. (read timeout=20)",
-      "id": "google-agent",
-      "ipPolicy": "verified-drop",
-      "operator": "Google",
-      "prefixes_v4": 0,
-      "prefixes_v6": 0,
-      "service": "Google-Agent",
-      "status": "failed"
-    }
-  ],
-  "generated_at": "2026-10-20T04:50:54Z",
+  "failed_sources": [],
+  "generated_at": "2026-10-20T11:36:17Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -134,14 +121,14 @@
     {
       "confidence": 100,
       "enforcement": "drop",
-      "error": "https://developers.google.com/static/crawling/ipranges/user-triggered-agents.json: HTTPSConnectionPool(host='developers.google.com', port=443): Read timed out. (read timeout=20)",
+      "error": null,
       "id": "google-agent",
       "ipPolicy": "verified-drop",
       "operator": "Google",
-      "prefixes_v4": 0,
-      "prefixes_v6": 0,
+      "prefixes_v4": 5,
+      "prefixes_v6": 1,
       "service": "Google-Agent",
-      "status": "failed"
+      "status": "ok"
     },
     {
       "confidence": 100,
