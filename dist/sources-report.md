@@ -1,5 +1,5 @@
 <!-- AI-Crawler-Blocklist -->
-<!-- Generated: 2026-10-20T21:37:01Z -->
+<!-- Generated: 2026-10-21T04:46:44Z -->
 <!-- Source: https://github.com/ipanalytics/AI-Crawler-Blocklist -->
 <!-- Policy: official/operator-published sources only -->
 <!-- WARNING: Review before hard drop. Search crawlers may affect visibility. -->
@@ -10,7 +10,7 @@
 | `amazon-amzn-user` | Amazon | drop | verified-drop | ok | 1023 | 0 |
 | `amazon-searchbot` | Amazon | drop | verified-drop | ok | 0 | 0 |
 | `amazonbot` | Amazon | drop | verified-drop | ok | 1292 | 0 |
-| `anthropic-claude-bots` | Anthropic | drop | verified-drop | ok | 38 | 0 |
+| `anthropic-claude-bots` | Anthropic | drop | verified-drop | ok | 14 | 0 |
 | `applebot-extended` | Apple | robots-only | robots-only | ok | 0 | 0 |
 | `baiduspider-ai-watch` | Baidu | log-only | static-watch | ok | 0 | 0 |
 | `bytespider` | ByteDance | log-only | static-watch | ok | 0 | 0 |
