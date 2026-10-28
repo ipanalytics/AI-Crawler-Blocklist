@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # AI-Crawler-Blocklist
-# Generated: 2026-10-28T12:53:59Z
+# Generated: 2026-10-28T22:34:46Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -505,10 +505,9 @@ ipset add "$IPSET_V4" "18.235.117.231/32" -exist
 ipset add "$IPSET_V4" "18.235.158.19/32" -exist
 ipset add "$IPSET_V4" "18.235.176.68/32" -exist
 ipset add "$IPSET_V4" "18.235.81.246/32" -exist
-ipset add "$IPSET_V4" "18.97.1.228/30" -exist
+ipset add "$IPSET_V4" "18.97.1.228/32" -exist
 ipset add "$IPSET_V4" "18.97.14.80/29" -exist
 ipset add "$IPSET_V4" "18.97.14.88/30" -exist
-ipset add "$IPSET_V4" "18.97.21.0/30" -exist
 ipset add "$IPSET_V4" "18.97.43.80/29" -exist
 ipset add "$IPSET_V4" "18.97.9.168/29" -exist
 ipset add "$IPSET_V4" "18.97.9.96/29" -exist
@@ -964,7 +963,6 @@ ipset add "$IPSET_V4" "3.210.223.61/32" -exist
 ipset add "$IPSET_V4" "3.210.29.96/32" -exist
 ipset add "$IPSET_V4" "3.210.93.112/32" -exist
 ipset add "$IPSET_V4" "3.211.105.134/32" -exist
-ipset add "$IPSET_V4" "3.211.124.183/32" -exist
 ipset add "$IPSET_V4" "3.211.144.3/32" -exist
 ipset add "$IPSET_V4" "3.211.145.5/32" -exist
 ipset add "$IPSET_V4" "3.211.153.227/32" -exist
@@ -1189,7 +1187,6 @@ ipset add "$IPSET_V4" "3.230.54.110/32" -exist
 ipset add "$IPSET_V4" "3.230.69.161/32" -exist
 ipset add "$IPSET_V4" "3.230.90.160/32" -exist
 ipset add "$IPSET_V4" "3.230.99.92/32" -exist
-ipset add "$IPSET_V4" "3.231.139.107/32" -exist
 ipset add "$IPSET_V4" "3.231.179.13/32" -exist
 ipset add "$IPSET_V4" "3.231.180.166/32" -exist
 ipset add "$IPSET_V4" "3.231.192.213/32" -exist

@@ -2,11 +2,11 @@
   "counts": {
     "robots_tokens": 27,
     "user_agent_patterns": 25,
-    "verified_ipv4_prefixes": 3109,
+    "verified_ipv4_prefixes": 3106,
     "verified_ipv6_prefixes": 2
   },
   "failed_sources": [],
-  "generated_at": "2026-10-28T12:53:59Z",
+  "generated_at": "2026-10-28T22:34:46Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -221,7 +221,7 @@
       "id": "perplexity-user",
       "ipPolicy": "verified-drop",
       "operator": "Perplexity",
-      "prefixes_v4": 4,
+      "prefixes_v4": 3,
       "prefixes_v6": 0,
       "service": "Perplexity-User",
       "status": "ok"
@@ -233,7 +233,7 @@
       "id": "perplexitybot",
       "ipPolicy": "verified-drop",
       "operator": "Perplexity",
-      "prefixes_v4": 8,
+      "prefixes_v4": 6,
       "prefixes_v6": 0,
       "service": "PerplexityBot",
       "status": "ok"
