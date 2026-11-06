@@ -1,5 +1,5 @@
 # AI-Crawler-Blocklist
-# Generated: 2026-11-06T06:45:11Z
+# Generated: 2026-11-06T19:24:08Z
 # Source: https://github.com/ipanalytics/AI-Crawler-Blocklist
 # Policy: official/operator-published sources only
 # WARNING: Review before hard drop. Search crawlers may affect visibility.
@@ -2052,6 +2052,7 @@
 51.143.114.45/32
 51.145.185.16/32
 51.57.0.96/28
+51.57.158.96/27
 51.59.24.64/27
 51.59.48.80/28
 51.8.102.0/24
