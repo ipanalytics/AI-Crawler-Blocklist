@@ -1,5 +1,5 @@
 <!-- AI-Crawler-Blocklist -->
-<!-- Generated: 2026-11-14T22:23:49Z -->
+<!-- Generated: 2026-11-15T06:31:03Z -->
 <!-- Source: https://github.com/ipanalytics/AI-Crawler-Blocklist -->
 <!-- Policy: official/operator-published sources only -->
 <!-- WARNING: Review before hard drop. Search crawlers may affect visibility. -->
@@ -14,7 +14,7 @@
 | `applebot-extended` | Apple | robots-only | robots-only | ok | 0 | 0 |
 | `baiduspider-ai-watch` | Baidu | log-only | static-watch | ok | 0 | 0 |
 | `bytespider` | ByteDance | log-only | static-watch | ok | 0 | 0 |
-| `ccbot` | Common Crawl | drop | verified-drop | failed | 0 | 0 |
+| `ccbot` | Common Crawl | drop | verified-drop | ok | 4 | 1 |
 | `duckassistbot` | DuckDuckGo | drop | verified-drop | ok | 484 | 0 |
 | `google-agent` | Google | drop | verified-drop | ok | 5 | 1 |
 | `google-extended` | Google | robots-only | robots-only | ok | 0 | 0 |
