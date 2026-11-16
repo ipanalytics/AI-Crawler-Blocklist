@@ -2,24 +2,11 @@
   "counts": {
     "robots_tokens": 27,
     "user_agent_patterns": 25,
-    "verified_ipv4_prefixes": 2623,
+    "verified_ipv4_prefixes": 3107,
     "verified_ipv6_prefixes": 2
   },
-  "failed_sources": [
-    {
-      "confidence": 100,
-      "enforcement": "drop",
-      "error": "https://duckduckgo.com/duckassistbot.json: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-      "id": "duckassistbot",
-      "ipPolicy": "verified-drop",
-      "operator": "DuckDuckGo",
-      "prefixes_v4": 0,
-      "prefixes_v6": 0,
-      "service": "DuckAssistBot",
-      "status": "failed"
-    }
-  ],
-  "generated_at": "2026-11-15T18:50:55Z",
+  "failed_sources": [],
+  "generated_at": "2026-11-16T06:28:41Z",
   "policy": "official/operator-published sources only",
   "project": "AI-Crawler-Blocklist",
   "sources": [
@@ -122,14 +109,14 @@
     {
       "confidence": 100,
       "enforcement": "drop",
-      "error": "https://duckduckgo.com/duckassistbot.json: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "error": null,
       "id": "duckassistbot",
       "ipPolicy": "verified-drop",
       "operator": "DuckDuckGo",
-      "prefixes_v4": 0,
+      "prefixes_v4": 484,
       "prefixes_v6": 0,
       "service": "DuckAssistBot",
-      "status": "failed"
+      "status": "ok"
     },
     {
       "confidence": 100,
