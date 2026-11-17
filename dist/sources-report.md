@@ -1,5 +1,5 @@
 <!-- AI-Crawler-Blocklist -->
-<!-- Generated: 2026-11-16T22:01:05Z -->
+<!-- Generated: 2026-11-17T07:54:30Z -->
 <!-- Source: https://github.com/ipanalytics/AI-Crawler-Blocklist -->
 <!-- Policy: official/operator-published sources only -->
 <!-- WARNING: Review before hard drop. Search crawlers may affect visibility. -->
